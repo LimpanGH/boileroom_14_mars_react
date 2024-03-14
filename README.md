@@ -25,6 +25,7 @@
   Ange också namnet på varje deltagare :-)
 
 # Reflektion
+Early Birds: Jakob, Leila, Anders, Zabi, Linus.
 
 ### Händelseförlopp.
 Vi hade rollerna facilitator, två navigatörer, en tidhållare och en driver.
