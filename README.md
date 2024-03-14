@@ -23,3 +23,22 @@
 - Lämna in repot här i uppgiften (räcker en per grupp)
 - I repots Readme, svara på - Vad har ni lärt er? - Vad har varit svårt? - Hur gick samarbetet?
   Ange också namnet på varje deltagare :-)
+
+# Reflektion
+
+### Bra
+
+- Det var intressant att testa en ny form av programmering.
+- Det var kul att försöka brainstorma hur man kan lösa uppgiften innan vi satte igång.
+- Det var mycket givande att sitta tillsammans efteråt och diskutera koden.
+
+### Kan bli bättre
+
+- Vi behöver kunna mer om React och react-dev-miljön
+- Vi upplevde att vår kunskapsnivå inom React var för låg för att kunna använda mob-programmering på ett effektivt sätt. Navigatören instruerar syntaxen snarare än kvalitetssäkrar koden.
+- Det svåraste var att få till JS-funktioner, snarare än React-metoder.
+- Det var svårt att visualisera vilken logik som behövs för att lösa uppgiften.
+
+### Actions
+
+- Vi hade önskat en uppgift som fokuserar mer på React än på JS-logik.

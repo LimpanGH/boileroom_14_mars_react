@@ -4,6 +4,8 @@ function App() {
   const [board, setBoard] = useState(Array(9).fill(''));
   const [currentPlayer, setCurrentPlayer] = useState('X');
   const [winner, setWinner] = useState(null);
+ 
+
   const winningConditions = [
     [0, 1, 2],
     [3, 4, 5],
@@ -14,6 +16,7 @@ function App() {
     [0, 4, 8],
     [2, 4, 6],
   ];
+
   useEffect(() => {
     const winner = checkWinner(board);
     if (winner) {
@@ -22,6 +25,7 @@ function App() {
       setWinner('Draw');
     }
   }, [board]);
+
   const handleCellClick = (index) => {
     if (board[index] === '' && !winner) {
       const newBoard = [...board];
@@ -30,6 +34,7 @@ function App() {
       setCurrentPlayer(currentPlayer === 'X' ? 'O' : 'X');
     }
   };
+
   const checkWinner = (board) => {
     for (let i = 0; i < winningConditions.length; i++) {
       const [a, b, c] = winningConditions[i];
@@ -39,27 +44,34 @@ function App() {
     }
     return null;
   };
+
   const resetGame = () => {
     setBoard(Array(9).fill(''));
     setCurrentPlayer('X');
     setWinner(null);
   };
+
+  // ! Return block --------
   return (
     <div className="game-board">
+
       {board.map((cell, index) => (
         <div key={index} className="cell" onClick={() => handleCellClick(index)}>
           {cell}
         </div>
       ))}
+      
       {winner && (
         <div className="winner">
           <span className="current-player">{winner === 'Draw' ? 'It\'s a Draw!' : `Winner: ${winner}`}</span>
           <button onClick={resetGame} className='button'>Reset Game</button>
         </div>
       )}
+      
       {!winner && (
-        <div className="current-player">Current Player: {currentPlayer}</div>
+      <div className="current-player">Current Player: {currentPlayer}</div>
       )}
+    
     </div>
   );
 }
