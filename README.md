@@ -26,6 +26,14 @@
 
 # Reflektion
 
+### Händelseförlopp.
+Vi hade rollerna facilitator, två navigatörer, en tidhållare och en driver.
+Vi försökte planerar en övergripande komponent och funktionsstruktur på whiteboard-tavla. Sedan började vi med mob-programering med hjälp av Mobti.
+Vi upplevde att det gick långsamt och svårt, det blev mycket dötid för drivern när vi andra försökte ta reda på vad vi ska skriva. Vi saknade en röd tråd för hur projektet skulle struktureras och vilka delar som det skulle innehålla.
+Efter drygt en timme avbröt vi och började kika på lösningar i mindre grupper.
+Vi lånade en del kod från nätet och lade sedan fokus på att lägga till funktionalitet och att förstå koden tillsammans.
+
+
 ### Bra
 
 - Det var intressant att testa en ny form av programmering.
