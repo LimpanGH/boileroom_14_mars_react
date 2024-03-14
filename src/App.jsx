@@ -53,8 +53,8 @@ function App() {
       ))}
       {winner && (
         <div className="winner">
-          {winner === 'Draw' ? 'It\'s a Draw!' : `Winner: ${winner}`}
-          <button onClick={resetGame}>Reset Game</button>
+          <span className="current-player">{winner === 'Draw' ? 'It\'s a Draw!' : `Winner: ${winner}`}</span>
+          <button onClick={resetGame} className='button'>Reset Game</button>
         </div>
       )}
       {!winner && (
